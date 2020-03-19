@@ -7,6 +7,9 @@
     <groupId>me.baijonas</groupId>
     <artifactId>jonas_spring_cloud_demo</artifactId>
     <version>20200318</version>
+    <modules>
+        <module>payment8888</module>
+    </modules>
     <packaging>pom</packaging>
     <!-- Manage library version -->
     <properties>
