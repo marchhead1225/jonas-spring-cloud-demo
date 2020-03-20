@@ -1,8 +1,7 @@
 package me.baijonas.admin.service.impl;
 
-import me.baijonas.admin.entity.Payment;
 import me.baijonas.admin.service.IPaymentService;
-import org.springframework.beans.factory.annotation.Qualifier;
+import me.baijonas.commons.entity.Payment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

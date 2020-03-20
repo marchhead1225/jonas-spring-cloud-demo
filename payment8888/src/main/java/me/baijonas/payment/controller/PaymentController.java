@@ -1,6 +1,6 @@
 package me.baijonas.payment.controller;
 
-import me.baijonas.payment.vo.Payment;
+import me.baijonas.commons.entity.Payment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -9,6 +9,9 @@
     <version>20200318</version>
     <modules>
         <module>payment8888</module>
+        <module>administration80</module>
+        <module>commons</module>
+        <module>eureka-server7777</module>
     </modules>
     <packaging>pom</packaging>
     <!-- Manage library version -->

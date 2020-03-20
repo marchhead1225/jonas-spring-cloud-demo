@@ -1,6 +1,6 @@
 package me.baijonas.admin.service;
 
-import me.baijonas.admin.entity.Payment;
+import me.baijonas.commons.entity.Payment;
 
 import java.util.List;
 

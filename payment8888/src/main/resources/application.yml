@@ -5,3 +5,14 @@ spring:
   application:
     name: payment
 
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # true(default) means this eureka client will register itself to eureka server,
+    register-with-eureka: true
+    # true(default) means this eureka client will fetch services registered from server,
+    # and it has to be true if load balancer is made work with ribbon
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7777/eureka/

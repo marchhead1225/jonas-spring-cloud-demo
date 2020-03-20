@@ -1,0 +1,14 @@
+server:
+  port: 7777
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # false means this eureka server won't register itself
+    register-with-eureka: false
+    # false means this eureka server will only maintain service instances,
+    # and won't search or scan service instances
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,7 +1,7 @@
 package me.baijonas.admin.controller;
 
-import me.baijonas.admin.entity.Payment;
 import me.baijonas.admin.service.IPaymentService;
+import me.baijonas.commons.entity.Payment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
