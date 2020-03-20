@@ -1,4 +1,4 @@
-package me.baijonas.admin.entity;
+package me.baijonas.commons.entity;
 
 
 import lombok.AllArgsConstructor;
